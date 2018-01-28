@@ -2,7 +2,7 @@
 
 ## App.config template
 
-´´´
+```
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <startup> 
@@ -13,4 +13,4 @@
     <add key="AzureBlobCleanerContainer" value="" />
   </appSettings>
 </configuration>
-´´´
+```
