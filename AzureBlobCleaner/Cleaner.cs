@@ -24,7 +24,7 @@ namespace AzureBlobCleaner
         public bool IsRunning { get; set; }
         public string Parameters { get; set; }
 
-        Regex r = new Regex(@"_(?<d>20[0-9][0-9][0-1][0-9][1-3][0-9]).BAK", RegexOptions.IgnoreCase);        
+        Regex r = new Regex(@"_(?<d>20[0-9][0-9][0-1][0-9][0-3][0-9]).BAK", RegexOptions.IgnoreCase);        
 
         public void Execute()
         {
